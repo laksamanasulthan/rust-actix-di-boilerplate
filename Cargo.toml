@@ -1,0 +1,9 @@
+[package]
+name = "rust-actix-di-boilerplate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+diesel = { version = "2.2.0", features = ["postgres"] }
+dotenv = "0.15"
